@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     height: 100%;
     text-align: center;
@@ -6,87 +6,110 @@ body{
     line-height: 1.5;
     background-color: #fff;
 }
-h1{
-    font-size: 5.625Rem;
-   margin-top: 0px;
-   padding-top: 150px;
-   font-family: 'Sacramento', cursive;
-   color: #66BFBF;
+
+.programmer {
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
 }
-h2{
+
+
+h1 {
+    font-size: 5.625Rem;
+    margin-top: 0px;
+    padding-top: 150px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    margin-bottom: 0;
+}
+
+h2 {
     font-size: 1.8rem;
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #1e836c;
     font-weight: normal;
 }
-.skill-row{
+
+.skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
 
-h3{
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+h3 {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #45b29a;
 }
-div{
+
+div {
     background-color: #fff;
 }
-.topcontainer{
-    background-color: #cbecf2; 
+
+.topcontainer {
+    background-color: #cbecf2;
     position: relative;
     height: 100%;
     margin-bottom: 0;
 }
-.pro{
+
+.pro {
     text-decoration: underline;
 }
-.bottom-cloud{
+
+.bottom-cloud {
     position: absolute;
     left: 25%;
     top: 300px;
 }
-.top-cloud{
+
+.top-cloud {
     position: absolute;
     right: 25%;
     top: 100px;
 }
-.coding-png{
+
+.coding-png {
     max-width: 25%;
     max-height: 25%;
     float: left;
     margin-right: 30px;
-    
+
 }
-.problem-solver-png{
+
+.problem-solver-png {
     max-width: 25%;
     max-height: 25%;
     float: right;
     margin-left: 30px;
 }
-.middle-container{
+
+.middle-container {
     margin: 100px 0;
 }
-.intro{
+
+.intro {
     width: 30%;
     margin: auto;
 }
-html{
+
+html {
     height: 100%;
 }
-hr{
+
+hr {
     margin: 50px auto;
     border-top: 4px dotted black;
     border-bottom: 0;
     width: 5%;
 }
-p{
+
+p {
     font-size: 18px;
     font-weight: 300;
-    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-family: adobe-garamond-pro, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-.my-image{
+
+.my-image {
     max-width: 10%;
     max-height: 10%;
 }
@@ -96,35 +119,42 @@ p{
     margin: 100px auto 100px auto;
     text-align: left;
 }
-.skill-row-ps{
+
+.skill-row-ps {
     width: 40%;
     margin: 180px auto 180px auto;
     text-align: left;
     line-height: 1.5;
 }
-.bottom-container{
+
+.bottom-container {
     margin-top: 50px;
     background-color: #c5ded7;
     height: 130px;
 }
+
 a {
     position: relative;
     top: 30px;
     margin: auto 10px auto 10px;
     text-decoration: none;
 }
+
 a:hover {
     color: white;
 }
+
 .footer-name {
     color: #45b29a;
     font-size: 0.80rem;
     position: relative;
     top: 50px;
 }
-.footer-link{
+
+.footer-link {
     color: #45b29a;
 }
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -151,32 +181,33 @@ a:hover {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
+
 .mountain {
     position: absolute;
     left: 32%;
     bottom: 0;
 }
-.animate-character{
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
+
+.animate-character {
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
 }
+
 @keyframes textclip {
     to {
-      background-position: 200% center;
+        background-position: 200% center;
     }
-  }
+}
